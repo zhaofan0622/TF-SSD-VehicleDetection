@@ -67,7 +67,7 @@ def main(_):
     # test
     cls_scores, reg_offsets = sess.run([cls_predict, reg_predict], feed_dict={ssd_input: img})
 
-    det_boxes = post_process(all_anchors, cls_scores, reg_offsets, s_w, s_h, score_thr=0.8, nms_thr=0.6)
+    det_boxes = post_process(all_anchors, cls_scores, reg_offsets, s_w, s_h, score_thr=0.9, nms_thr=0.6)
     t_end = time.time()
     print('time consuming: %.0fs\n' % (t_end - t_start))
 
