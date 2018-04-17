@@ -39,4 +39,7 @@ My trained models and logs can be download from Google Drive [https://drive.goog
 
 
 
+P.S. my chinese blog is [https://blog.csdn.net/shuzfan/article/details/79034555](https://blog.csdn.net/shuzfan/article/details/79034555)
+
+
 
