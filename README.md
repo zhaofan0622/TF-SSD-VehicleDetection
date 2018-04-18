@@ -1,25 +1,19 @@
 # TF-SSD-VehicleDetection
-Vehicle Detection with SSD algorithm and Tensorflow
+Vehicle Detection with [SSD algorithm](https://arxiv.org/abs/1512.02325) and Tensorflow
 
 ![image](test_result1.JPG)
 ![image](test_result2.JPG)
 
 
 
-
-Some Setups:
-
-Single Shot Detection: [https://arxiv.org/abs/1512.02325](https://arxiv.org/abs/1512.02325)
-
-TensorFlow Version: 1.4
-
-Python: 3.6 (Anaconda3)
-
 <font color=red>**Notice:**</font>
 
-My trained models and logs can be download from Google Drive [https://drive.google.com/open?id=1_IpPGwND0D0HPCJ9zNAKAInv5J5GaB2g](https://drive.google.com/open?id=1_IpPGwND0D0HPCJ9zNAKAInv5J5GaB2g)
+ - (1) TensorFlow Version: 1.4; Python Version: 3.6 (Anaconda3); 
+ - (2) My trained models and logs can be download from Google Drive [https://drive.google.com/open?id=1_IpPGwND0D0HPCJ9zNAKAInv5J5GaB2g](https://drive.google.com/open?id=1_IpPGwND0D0HPCJ9zNAKAInv5J5GaB2g)
+ - (3) Since images in KITTI are 1242x375 but my trained model is SSD300, the detection performance is poor. To improve the performance, you can try to train a new SSD model with larger input images. 
 
 
+<font color=red>**How to run this project?:**</font>
 
 #### (1) Download and unzip KITTI dataset
 
