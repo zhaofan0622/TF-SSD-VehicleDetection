@@ -13,7 +13,7 @@ Vehicle Detection with [SSD algorithm](https://arxiv.org/abs/1512.02325) and Ten
  - (3) Since images in KITTI are 1242x375 but my trained model is SSD300, the detection performance is poor. To improve the performance, you can try to train a new SSD model with larger input images. 
 
 
-<font color=red>**How to run this project?:**</font>
+<font color=red>**How to run this project?**</font>
 
 #### (1) Download and unzip KITTI dataset
 
